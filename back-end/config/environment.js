@@ -5,6 +5,6 @@ dotenv.config()
 // export const dbURI = 'mongodb://127.0.0.1/platester'
 // export const secret = 'PlAtEsTeR'
 
-export const dbURI = process.env.MONGODB_URI || 's'
+export const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/myFirstDatabase'
 export const port = process.env.PORT || 4000
 export const secret = process.env.SECRET || 'PlAtEsTeR'
