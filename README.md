@@ -53,6 +53,7 @@ This is the third project on the GA course. It is a group project is a recipe we
 <br/>
 
 ***Approach Taken***
+<br/>
 
 **Planning:**
 
@@ -156,6 +157,8 @@ This feature was first built by my teammate as a redirect to another url, and I 
 - Users cannot delete their account.
  
 <br/>
+<br/>
+
 
 ***Key learnings***
 
