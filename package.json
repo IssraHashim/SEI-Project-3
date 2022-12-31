@@ -13,7 +13,7 @@
   "scripts": {
     "serve": "npx nodemon index.js",
     "seed": "node db/seeds.js",
-    "start": "node index.js", 
+    "start": "node index.js",
     "build": "cd front-end && yarn && yarn build"
   },
   "dependencies": {
