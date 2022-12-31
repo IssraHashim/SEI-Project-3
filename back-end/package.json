@@ -9,8 +9,8 @@
   "scripts": {
     "serve": "npx nodemon index.js",
     "seed": "node db/seeds.js",
-    "start": "node index.js", 
-    "build": "cd front-end && yarn && yarn build"
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && node index.js", 
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && cd front-end && yarn && yarn build"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
