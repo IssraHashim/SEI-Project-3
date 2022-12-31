@@ -14,6 +14,7 @@
     "serve": "npx nodemon index.js",
     "seed": "node db/seeds.js",
     "start": "node index.js", 
+    "dev": "npm install && yarn seed && npm run build",
     "build": "cd front-end && yarn && yarn build"
   },
   "dependencies": {
