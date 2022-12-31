@@ -1,6 +1,10 @@
 {
   "name": "sei-project-3",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.17.5",
+    "npm": "9.2.0"
+  },
   "main": "index.js",
   "repository": "git@github.com:leewiseman94/SEI-Project-3.git",
   "author": "Lee.wiseman@bourne-leisure.co.uk <leew21@hotmail.co.uk>",
