@@ -20,7 +20,7 @@ import Inspiration from './components/Inspiration';
 
 
 function App() {
-  // const [recipes, setRecipes] = useState([])
+  
   const [isShowLoginOrRegister, setIsShowLoginOrRegister] = useState(false)
 
   const handleLoginClick = () => {
@@ -31,6 +31,11 @@ function App() {
     setIsShowLoginOrRegister(bool)
   }
 
+  const callApi = () => {
+    fetch('', { method: 'GET' })
+        .then(data => data.json())
+        .then(json => alert(JSON.stringify(json)))
+  }
 
 
   return (
@@ -57,7 +62,6 @@ function App() {
   )
 
 }
-
 
 
 export default App;
